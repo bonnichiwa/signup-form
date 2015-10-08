@@ -7,7 +7,7 @@ app.directive('optIn', function() {
     template: '<div class="main">' +
               '<div ng-transclude></div>' +
               '<form name="acme-form">' + 
-              'First name:<input type="text" placeholder="First name"><br>' + 
+              '<input type="text" placeholder="First name"><br>' + 
               '<input type="text" placeholder="Last name"><br>' +
               '<input type="email" placeholder="E-mail"><br>' + 
               '<input type="submit" value="Give us yr infoz!">' + 
